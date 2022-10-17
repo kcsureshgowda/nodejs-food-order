@@ -14,11 +14,10 @@ function App() {
         setCartIsShown(false);
     }
 
-    return ( <
-        CartProvider > {
-            cartIsShown && < div > Cart.... < /div>} <
+    return ( < CartProvider > {
+            cartIsShown && < div > Cart.... < /div>}  <
             Header onShowCart = { showCartHandler }
-            /> <
+            />  <
             main >
             <
             Meals / >
